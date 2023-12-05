@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Function</title>
+</head>
+<body>
+<script>
+function add(){
+let a=10;
+let b=5;
+let c=a+b;
+return c;
+}
+console.log(add());
+</script>
+<script>
+function add1(){
+let a1=50,b1=8;
+let c1=a1+b1;
+return c1;
+}
+let res=add1();
+console.log(res);
+</script>
+<script>
+function score(){
+let marks1=98,marks2=78,marks3=89,marks4=56,marks5=90;
+return marks1+marks2+marks3+marks4+marks5;
+}
+let tot=score();
+let avg=tot/5;
+console.log(tot);
+console.log(avg);
+</script>
+
+<script>
+function sum(num1,num2,num3){
+let  total=num1-num2-num3;
+console.log(total);
+}
+sum(10,96,15);
+sum(16,78,12);
+sum(45,71,18);
+</script>
+
+<script>
+function sum1(num4,num5,num6){
+let total1=num4*num5*num6;
+return total1;
+}
+console.log(sum1(8,9,3));
+</script>
+
+<script>
+function sum2(num7,num8){
+let total2=num7+num8;
+return total2;
+}
+console.log(sum2(10,20,30));     
+</script>
+
+<script>
+function sum3(num9,num10,num11){
+let total3=num9+num10+num11;
+console.log(total3);
+}
+sum3(17,10);
+</script>
+<script>
+let number1=parseInt("hello");
+console.log(number1,typeof(number1));              //NaN ,'number'
+
+let number2=parseFloat("10.33");
+console.log(number2,typeof(number2));              // 10.33 ,'number'
+
+let number3=parseInt("17");
+console.log(number3,typeof(number3));             // 17 , 'number'
+
+console.log(isNaN("hi"));       // true
+console.log(isNaN("1942"));      // false
+console.log(isNaN(3576));        // false  
+</script>
+</body>
+</html>
